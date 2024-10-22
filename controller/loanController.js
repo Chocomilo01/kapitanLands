@@ -278,7 +278,6 @@ class LoanController {
         secondGuarantorsName,
         secondGuarantorsPhoneNumber,
         secondGuarantorsOccupation,
-        phoneNo1,
       } = req.body;
 
       // Verify that the customer exists
@@ -363,7 +362,6 @@ class LoanController {
         secondGuarantorsName,
         secondGuarantorsPhoneNumber,
         secondGuarantorsOccupation,
-        phoneNo1,
       
         // ... Other withdrawal details ...
       });
@@ -409,7 +407,6 @@ class LoanController {
         secondGuarantorsName,
         secondGuarantorsPhoneNumber,
         secondGuarantorsOccupation,
-        phoneNo1,
         paymentDate,
         
       } = req.body;
@@ -501,7 +498,6 @@ class LoanController {
         secondGuarantorsName,
         secondGuarantorsPhoneNumber,
         secondGuarantorsOccupation,
-        phoneNo1,
         
 
         // ... Other deposit details ...
