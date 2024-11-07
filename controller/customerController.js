@@ -88,7 +88,6 @@ class CustomerController {
         })
 
      }
-
     async fetchCustomers(req, res){
         // console.log('I am now done with authentication')
         const allCustomers = await  CustomerService.fetch({});
